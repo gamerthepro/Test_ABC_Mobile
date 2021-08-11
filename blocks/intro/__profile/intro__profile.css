@@ -1,3 +1,10 @@
 .intro__profile {
-	
+	display: block;
+	width: 344px;
+	height: 344px;
+	background-image: url(../../../images/Vector.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: auto;
 }
