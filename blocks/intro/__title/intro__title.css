@@ -1,0 +1,8 @@
+.intro__title {
+	display: flex;
+	font-weight: 300;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.6);
+}
