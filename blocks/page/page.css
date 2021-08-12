@@ -1,4 +1,6 @@
 .page {
 	font-family: 'Roboto', 'Arial', sans-serif;
+  max-width: 1920px;
+	min-height: 1098px;
 	background-color: #202024;
 }
