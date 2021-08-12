@@ -1,0 +1,10 @@
+.info {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	max-width: 1440px;
+	min-height: 437.48px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	margin: 120px auto auto auto;
+}

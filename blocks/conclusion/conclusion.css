@@ -1,0 +1,8 @@
+.conclusion {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	max-width: 1440px;
+	min-height: 400px;
+	opacity: 0.6;
+}

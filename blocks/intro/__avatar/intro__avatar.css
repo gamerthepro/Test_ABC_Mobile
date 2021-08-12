@@ -1,7 +1,7 @@
 .intro__avatar {
-	display: block;
-	position: relative;
+	position: absolute;
 	top: 15%;
+	right: 15%;
 	border-radius: 100%;
 	margin: auto;
 }

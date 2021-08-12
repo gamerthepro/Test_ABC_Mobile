@@ -1,0 +1,7 @@
+.conclusion__icon_position_top {
+	position: absolute;
+	top: 0;
+	left: calc(50% - 28px);
+	width: 56.52px;
+	height: 17.36px;
+}

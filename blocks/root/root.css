@@ -1,6 +1,17 @@
 .root {
 	display: flex;
 	flex-direction: column;
-	max-width: 1920px;
 	align-items: center;
+	max-width: 1920px;
+	position: relative;
+}
+
+.root::before {
+	content: '';
+	position: absolute;
+	top: -156px;
+	width: 1920px;
+	height: 1098px;
+	background-image: url(../../images/5bc4a6ccdbbee166782b9064\ 1.png);
+	background-repeat: no-repeat;
 }
