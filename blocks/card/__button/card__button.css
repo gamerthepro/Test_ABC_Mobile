@@ -1,0 +1,17 @@
+.card__button {
+	width: 310px;
+	height: 69px;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0px auto 34.72px;
+	border-radius: 50PX;
+	padding: 0;
+	cursor: pointer;
+	transition: opacity .2s ease-in-out;
+}	
