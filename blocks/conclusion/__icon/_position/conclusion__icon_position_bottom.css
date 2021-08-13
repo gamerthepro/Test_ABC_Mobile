@@ -1,7 +1,7 @@
 .conclusion__icon_position_bottom {
 	position: absolute;
 	left: calc(50% - 27px);
-	bottom: 0;
+	bottom: 200px;
 	width: 54.94px;
 	height: 17.36px;
 }
