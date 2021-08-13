@@ -6,13 +6,8 @@
   margin: auto;
 }
 
-.root::before {
-	content: '';
-	position: absolute;
-	top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-	background-image: url(../../images/fon.svg);
-	background-repeat: no-repeat;
+@media screen and (max-width: 1919px) {
+  .root {
+    max-width: 1440px;
+  }
 }

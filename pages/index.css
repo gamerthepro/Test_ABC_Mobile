@@ -21,6 +21,7 @@
 @import url('../blocks/info/__img/info__img.css');
 @import url('../blocks/info/__img/_position/info__img_position_up.css');
 @import url('../blocks/info/__title/info__title.css');
+@import url('../blocks/info/__title/_position/info__title_position_center.css');
 @import url('../blocks/info/__title/_color/info__title_color_gold.css');
 @import url('../blocks/conclusion/conclusion.css');
 @import url('../blocks/conclusion/__container/conclusion__container.css');
