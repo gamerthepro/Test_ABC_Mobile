@@ -9,3 +9,10 @@
 	white-space: pre;
 	margin:auto;
 }
+
+@media screen and (max-width: 779px) {
+  .conclusion__title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

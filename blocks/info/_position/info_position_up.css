@@ -3,3 +3,10 @@
 	height: 437.48px;
 	border: 1px solid #FFFFFF;
 }
+
+@media screen and (max-width: 779px) {
+  .info_position_up {
+    width: 255px;
+    height: 252px;
+  }
+}

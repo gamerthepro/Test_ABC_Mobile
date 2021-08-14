@@ -2,5 +2,18 @@
 	position: absolute;
 	top: -15%;
 	left: 34%;
+  background-image: url(../../../../images/image9.png);
+  width: 135.41px;
+  height: 135.41px;
 	border-radius: 100%;
+}
+
+@media screen and (max-width: 779px) {
+  .info__img_position_up {
+    top: -16.5%;
+    left: 35%;
+    width: 78px;
+    height: 78px;
+    background-size: cover;
+  }
 }

@@ -6,11 +6,25 @@
 	max-width: 1440px;
 	min-height: 400px;
 	opacity: 0.6;
+  margin: auto;
 }
 
-@media screen and (max-width: 1640px) {
+@media screen and (max-width: 1919px) {
   .conclusion {
     overflow: hidden;
   }
 }
 
+@media screen and (max-width: 1439px) {
+  .conclusion {
+    max-width: 1080px;
+    overflow: visible;
+  }
+}
+
+@media screen and (max-width: 1079px) {
+  .conclusion {
+    max-width: 740px;
+    overflow: hidden;
+  }
+}

@@ -3,11 +3,30 @@
 	flex-direction: column;
 	align-items: center;
 	max-width: 1920px;
+  width: 100%;
   margin: auto;
 }
 
 @media screen and (max-width: 1919px) {
   .root {
     max-width: 1440px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .root {
+    max-width: 1080px;
+  }
+}
+
+@media screen and (max-width: 1079px) {
+  .root {
+    max-width: 780px;
+  }
+}
+
+@media screen and (max-width: 779px) {
+  .root {
+    max-width: 320px;
   }
 }

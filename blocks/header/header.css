@@ -1,7 +1,13 @@
 .header {
 	display: flex;
 	flex-direction: column;
-	width: 1440px;
+	width: 100%;
 	min-height: 75px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (max-width: 779px) {
+  .header {
+    min-height: 40px;
+  }
 }

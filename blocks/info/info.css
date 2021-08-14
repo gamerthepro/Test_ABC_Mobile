@@ -3,8 +3,25 @@
 	flex-direction: column;
 	position: relative;
 	max-width: 1440px;
-	min-height: 437.48px;
 	box-sizing: border-box;
 	border-radius: 3px;
 	margin: 80px auto auto auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .info {
+    max-width: 1050px;
+  }
+}
+
+@media screen and (max-width: 1079px) {
+  .info {
+    max-width: 780px;
+  }
+}
+
+@media screen and (max-width: 779px) {
+  .info {
+    margin: 50px auto auto auto;
+  }
 }

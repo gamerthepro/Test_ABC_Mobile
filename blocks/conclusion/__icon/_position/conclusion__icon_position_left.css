@@ -5,3 +5,12 @@
 	width: 164.1px;
 	height: 163.95px;
 }
+
+@media screen and (max-width: 779px) {
+  .conclusion__icon_position_left {
+    bottom: 200px;
+    left: 0px;
+    width: 52px;
+    height: 51.95px;
+  }
+}

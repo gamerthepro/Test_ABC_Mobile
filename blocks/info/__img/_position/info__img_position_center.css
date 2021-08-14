@@ -1,0 +1,32 @@
+.info__img_position_center {
+  position: relative;
+  max-width: 1440px;
+  height: 606px;
+  overflow: hidden;
+}
+
+
+.info__img_position_center::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../../../../images/image7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+@media screen and (max-width: 779px) {
+  .info__img_position_center {
+    width: 498px;
+    height: 331px;
+  }
+}
+
+@media screen and (max-width: 779px) {
+  .info__img_position_center::before {
+    background-size: contain;
+    background-position: 0;
+  }
+}

@@ -3,3 +3,10 @@
 	top: calc(50% - 120px);
 	left: calc(50% - 170px);;
 }
+
+@media screen and (max-width: 779px) {
+  .info__title_position_center {
+    top: calc(50% - 120px);
+    left: calc(50% - 105px);;
+  }
+}

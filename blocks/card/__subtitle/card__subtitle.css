@@ -9,3 +9,11 @@
 	color: rgba(255, 255, 255, 0.6);
 	margin: auto;
 }
+
+
+@media screen and (max-width: 779px) {
+  .card__subtitle {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

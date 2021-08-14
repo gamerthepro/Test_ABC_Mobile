@@ -1,9 +1,10 @@
 .root__container {
+  width: 100%;
   margin: 0 4.3% 0 0;
 }
 
-@media screen and (max-width: 1441px) {
+@media screen and (max-width: 779px) {
   .root__container {
-    margin: auto;
+    margin: 0;
   }
 }

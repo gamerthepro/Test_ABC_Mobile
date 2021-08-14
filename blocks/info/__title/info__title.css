@@ -11,3 +11,16 @@
 	white-space: pre;
 	margin: auto;
 }
+
+@media screen and (max-width: 779px) {
+  .info__title {
+    width: 210px;
+    height: 180px;
+    top: calc(50% - 70px);
+    left: calc(50% - 105px);
+    max-width: 210px;
+    font-size: 16px;
+    line-height: 25px;
+    white-space: normal;
+  }
+}

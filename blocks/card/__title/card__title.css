@@ -2,7 +2,18 @@
 	font-weight: normal;
 	font-size: 25px;
 	line-height: 35px;
+  letter-spacing: 0.1em;
 	text-align: center;
 	color: #F6C866;
 	white-space: pre;
+}
+
+@media screen and (max-width: 779px) {
+  .card__title {
+    width: 288px;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 12px auto 21px;
+    letter-spacing: 0;
+  }
 }
