@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 1919px) {
   .intro::before {
-    background-position: top -1.2% right 32%;
+    background-position: top -50% right 32%;
   }
 }
 

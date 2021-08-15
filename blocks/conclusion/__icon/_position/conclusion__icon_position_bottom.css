@@ -1,13 +1,14 @@
 .conclusion__icon_position_bottom {
 	position: absolute;
-	left: calc(50% - 16px);
-	bottom: 300px;
+	left: calc(50% - 26px);
+	bottom: 260px;
 	width: 54.94px;
 	height: 17.36px;
 }
 
 @media screen and (max-width: 779px) {
   .conclusion__icon_position_bottom {
+    bottom: 27px;
     width: 32.56px;
     height: 10px;
   }

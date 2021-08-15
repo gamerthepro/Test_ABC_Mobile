@@ -6,6 +6,7 @@
 	text-align: center;
 	color: #F6C866;
 	white-space: pre;
+  margin: 0 auto 65px;
 }
 
 @media screen and (max-width: 779px) {

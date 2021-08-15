@@ -1,6 +1,6 @@
 .info__img_position_center {
   position: relative;
-  max-width: 1440px;
+  width: 1440px;
   height: 606px;
   overflow: hidden;
 }
@@ -11,10 +11,9 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url(../../../../images/image7.png);
+  background-image: url(../../../../images/image7_1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50%;
 }
 
 @media screen and (max-width: 779px) {
@@ -26,7 +25,8 @@
 
 @media screen and (max-width: 779px) {
   .info__img_position_center::before {
+    background-image: url(../../../../images/image7.png);
     background-size: contain;
-    background-position: 0;
+    background-position: 0% 100%;
   }
 }

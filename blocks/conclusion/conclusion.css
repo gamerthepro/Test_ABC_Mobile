@@ -28,3 +28,11 @@
     overflow: hidden;
   }
 }
+
+@media screen and (max-width: 779px) {
+  .conclusion {
+    width: 235px;
+    min-height: 84px;
+    overflow: visible;
+  }
+}

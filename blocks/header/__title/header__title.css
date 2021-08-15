@@ -5,7 +5,7 @@
 	line-height: 19px;
 	text-align: center;
   letter-spacing: 0.1em;
-	margin: auto;
+	margin: 36px auto 30px;
 	color: rgba(255, 255, 255, 0.6);
 }
 
@@ -13,5 +13,6 @@
   .header__title {
     font-size: 12px;
     line-height: 14px;
+    margin: auto;
   }
 }
