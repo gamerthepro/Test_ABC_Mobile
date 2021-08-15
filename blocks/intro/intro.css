@@ -14,18 +14,25 @@
 	background-image: url(../../images/fon.svg);
 	background-repeat: no-repeat;
   background-position: top 0 right 50%;
+  background-size: auto;
 }
 
 @media screen and (max-width: 1919px) {
   .intro::before {
-    background-position: top -50% right 32%;
+    background-position: top -3% right 32%;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .intro::before {
+    background-position: top 140% right -180px;
+    background-size: 700px 500px;
   }
 }
 
 @media screen and (max-width: 779px) {
   .intro::before {
-    background-position: top 0 right 40%;
-    background-size: cover;
-    height: 90%;
+    background-position: top 5% right -90px;
+    background-size: 382px 402px;
   }
 }
