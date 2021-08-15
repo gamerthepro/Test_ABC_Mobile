@@ -25,14 +25,14 @@
 
 @media screen and (max-width: 1439px) {
   .intro::before {
-    background-position: top 140% right -180px;
-    background-size: 700px 500px;
+    background-position: top 33px right -180px;
+    background-size: 1000px 800px;
   }
 }
 
 @media screen and (max-width: 779px) {
   .intro::before {
-    background-position: top 5% right -90px;
+    background-position: top 10px right -95px;
     background-size: 382px 402px;
   }
 }
