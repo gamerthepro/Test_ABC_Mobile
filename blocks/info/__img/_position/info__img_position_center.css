@@ -1,6 +1,6 @@
 .info__img_position_center {
   position: relative;
-  width: 1440px;
+  max-width: 1440px;
   height: 606px;
   overflow: hidden;
 }
